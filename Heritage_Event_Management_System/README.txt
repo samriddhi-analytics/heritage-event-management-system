@@ -1,37 +1,69 @@
-HERITAGE EVENT MANAGEMENT SYSTEM — RUNNABLE WINDOWS PROJECT
-============================================================
+# Heritage Event Management System
 
-This version runs as a desktop application using Python + Tkinter + SQLite.
-No MySQL setup and no pip install are required.
+## Project Overview
 
-RUN IT:
-1. Download and extract this ZIP to a folder on your Windows laptop.
-2. Open the extracted folder in File Explorer.
-3. Click the address bar, type cmd, and press Enter.
-4. Type: py --version
-5. Then type: py app.py
+The Heritage Event Management System is a Python-based desktop application developed to manage heritage-related events and visitor records. The project demonstrates the use of Python, Tkinter, SQLite, and SQL for building a database-driven application.
 
-If `py` is not recognized, try `python --version` and then `python app.py`.
-If Python is not installed, install it from https://www.python.org/downloads/
-and tick "Add python.exe to PATH" during installation.
+## Objectives
 
-APP TABS:
-- Events: view and add events
-- Visitors: add visitor records
-- Registrations: register a visitor for an event; update attendance status
-- Reports: review registration counts and attendance rates
+- Organise heritage event information.
+- Maintain visitor records through a desktop interface.
+- Store and retrieve structured information using a database.
+- Demonstrate practical application development and database management skills.
 
-The app creates `heritage_events.db` automatically in this folder. Your changes
-are saved when you close and reopen the app.
+## Features
 
-Files:
-- app.py: runnable desktop application
-- heritage_event_management.sql: MySQL schema/reference queries
-- Project_Report.pdf: project report
-- README.txt: these instructions
+- **Event Management:** View and manage heritage event information.
+- **Visitor Management:** Enter visitor details, including full name, email, and city.
+- **Database Integration:** Store application data using SQLite.
+- **SQL Script:** Includes an SQL file for database-related operations.
+- **Project Documentation:** Includes a report and setup instructions.
 
-All sample names and records are fictional demo data. This is an independent
-portfolio project, not an official IAADB or Ministry of Culture system.
+## Technologies Used
 
-To reset all local demo data: close the app and delete `heritage_events.db`.
-The database will be recreated the next time the app starts.
+- **Programming Language:** Python
+- **GUI Framework:** Tkinter
+- **Database:** SQLite
+- **Query Language:** SQL
+
+## Repository Contents
+
+| File | Description |
+|---|---|
+| `app.py` | Main Python application |
+| `heritage_events.db` | SQLite database file |
+| `heritage_event_management.sql` | SQL script |
+| `Project_Report.pdf` | Project report |
+| `README.txt` | Original project instructions |
+
+## How to Run the Application
+
+1. Install Python on your Windows computer.
+2. Download or clone this repository.
+3. Open the project folder containing `app.py`.
+4. Open Command Prompt or a terminal in that folder.
+5. Run the following command:
+
+   ```bash
+   python app.py
+   ```
+
+6. The desktop application should open if the required dependencies and database configuration are available.
+
+## Learning Outcomes
+
+This project demonstrates practical experience with:
+
+- Python desktop application development.
+- GUI design using Tkinter.
+- SQLite database integration.
+- SQL scripts and structured data management.
+- Managing event and visitor information.
+
+## Project Status
+
+This is an educational portfolio project. The application and its database scripts should be tested before being used in a production environment.
+
+## Author
+
+Developed as a portfolio project to demonstrate Python programming and database management skills.
